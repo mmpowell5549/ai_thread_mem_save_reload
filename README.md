@@ -75,3 +75,26 @@ MEM: How I tag my responses to be 'saved' (written to a local flat file) that I 
 into an AI thread manually to 'restore' beyond the base memory.
 
 <> I put literals you need to replace in those tags because I like c++ books.
+
+This is basically a summary of a chat thread's memory, ATOTW.
+You can also do this:
+""
+can you dump thread memory please?
+AI said:
+I don't have the ability to directly display or dump the 
+full memory of this thread. However, I can summarize what 
+has been saved or clear the memory from this thread if 
+you'd like.
+
+Would you like me to clear this thread’s memory or 
+summarize what's stored?
+
+
+You said:
+summarize please
+"
+
+Back this up then reload - this should also work effectively.
+This also implies the 'how' or 'when' processing of data and
+how we would rev/throttle the systems.  There is a fine balance,
+until there is not :)
