@@ -1,49 +1,77 @@
-# chatgpt_utils
+# AI Thread Memory Enhancer
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+Time Travel for the Average AI Joe.
 
-ChatGPT Utilities to make life more fun
+An AI Utility for fun.
+Don't use my code to do bad sh*t.  
+Oh the things we can all think of.
+It's always the KISS principal, is it not?
+<div style="border: 1px solid red; padding: 10px;">
+NUMBER ONE THING HERE:
+IF you are unable able to follow directions, give up now - because I'm doing this as a demo, okay?
+</div>
 
 What this does:
-Extends ChatGPT for greater customization in the event of a chat window closure.
+Extends an AI chat thread for greater customization in the event of a chat window closure/failure.
 It simply saves your posts when your local memory is full.  
 Why:
 This leads to more customized/personalized/focused responses based on what you have already
 fed the AI.
 
 This utility requires you interact with the AI.  
+<div style="border: 1px solid red; padding: 10px;">
+NUMBER TWO THING HERE:
+You better know how to train your dragon.  If it doesn't do what you say from the get, you got nothin.
+</div>
 You need to create a 'tag' for the AI responses that you would like to 'save'.
+You need to modify this script for those tags, and it probably makes sense to tweak your time as well ;)
 
-**Glossary (Because I make things up)**
--------------------------------------------------------------
-ATOTW: At the time of this writing
-MEM: How I tag my responses to be 'saved' (written to a local flat file) that I can then 'load' back into a new 
-ChatGPT thread manually to 'restore' beyond the base memory.
-![img.png](img.png)
+![img_4.png](img_4.png)
+
+
 
 **System Build**
+
+You need to use Chrome ATOTW  & download the correct driver. You need to be smart enough to do all these things.
+![img.png](img.png)
 
 Divers:
 Chrome
 https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions-with-downloads.json
 https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.53/win64/chromedriver-win64.zip
 
+
 ![img_2.png](img_2.png)
 
-
 Create a Project 
-
+.
+.
+.
 mkdir my_python_app
 cd my_python_app
 python3 -**m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 touch app.py  # On Windows: type nul > app.py
-
-pip install selenium
-pip install playwright
-playwright install
+.
+.
+.
+do all the things...
+. 
+.
+.
+pip install selenium...just use my file....
 
 pip freeze > requirements.txt
 
-chmod +x app.py
+chmod +x <your_app_name>.py
 
 
+
+**Glossary (Because I make things up)**
+-------------------------------------------------------------
+ATOTW: At the time of this writing
+
+MEM: How I tag my responses to be 'saved' (written to a local flat file) that I can then 'load' back into a new
+into an AI thread manually to 'restore' beyond the base memory.
+
+<> I put literals you need to replace in those tags because I like c++ books.
