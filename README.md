@@ -20,7 +20,7 @@ fed the AI.
 
 What else you can do with it:
 1) See what you wanted the AI to select for memory / storage vs
-what the AI has selected for the thread and the global user
+what the AI has promoted for the thread and the global user
 cache.
 
 2) Export / attempt to save the page in the event the UI has a bug
