@@ -19,9 +19,12 @@ This leads to more customized/personalized/focused responses based on what you h
 fed the AI.
 
 What else you can do with it:
-See what you wanted the AI to select for memory / storage vs
+1) See what you wanted the AI to select for memory / storage vs
 what the AI has selected for the thread and the global user
 cache.
+
+2) Export / attempt to save the page in the event the UI has a bug
+and you had a fun response similar to the gemini incident.
 
 This utility requires you interact with the AI.  
 <div style="border: 1px solid red; padding: 10px;">
