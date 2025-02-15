@@ -18,6 +18,11 @@ Why:
 This leads to more customized/personalized/focused responses based on what you have already
 fed the AI.
 
+What else you can do with it:
+See what you wanted the AI to select for memory / storage vs
+what the AI has selected for the thread and the global user
+cache.
+
 This utility requires you interact with the AI.  
 <div style="border: 1px solid red; padding: 10px;">
 NUMBER TWO THING HERE:
@@ -98,3 +103,4 @@ Back this up then reload - this should also work effectively.
 This also implies the 'how' or 'when' processing of data and
 how we would rev/throttle the systems.  There is a fine balance,
 until there is not :)
+
