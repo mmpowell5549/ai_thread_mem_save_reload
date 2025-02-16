@@ -26,6 +26,9 @@ cache.
 2) Export / attempt to save the page in the event the UI has a bug
 and you had a fun response similar to the gemini incident.
 
+3) You can see the bugs in their cache code :D Few duplicate data structures loading in there ;)
+
+
 This utility requires you interact with the AI.  
 <div style="border: 1px solid red; padding: 10px;">
 NUMBER TWO THING HERE:
