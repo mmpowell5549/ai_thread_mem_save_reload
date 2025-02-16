@@ -26,6 +26,9 @@ cache.
 2) Export / attempt to save the page in the event the UI has a bug
 and you had a fun response similar to the gemini incident.
 
+3) You can see the bugs in their cache code :D Few duplicate data structures loading in there ;)
+
+
 This utility requires you interact with the AI.  
 <div style="border: 1px solid red; padding: 10px;">
 NUMBER TWO THING HERE:
@@ -107,3 +110,5 @@ This also implies the 'how' or 'when' processing of data and
 how we would rev/throttle the systems.  There is a fine balance,
 until there is not :)
 
+Memory Settings are in places like this:
+![img_1.png](img_1.png)
