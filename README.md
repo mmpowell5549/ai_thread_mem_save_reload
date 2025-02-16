@@ -107,3 +107,5 @@ This also implies the 'how' or 'when' processing of data and
 how we would rev/throttle the systems.  There is a fine balance,
 until there is not :)
 
+Memory Settings are in places like this:
+![img_1.png](img_1.png)
