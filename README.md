@@ -125,7 +125,9 @@ this information? Suddenly we're not in Kansas anymore :)
 ![img_6.png](img_6.png)
 
 2/23 
-It "choose" to auto update it's memory based on the code I had
+It "chose" to auto update it's memory based on the code I had
 it help me write and the other 'discussions'.  It now
-immediately updates it's memory when I type "MEM"
+immediately updates it's memory when I type "MEM".
+This is a new thread....there is no reference visible in 
+the Memory Management in Settings.
 ![img_8.png](img_8.png)
