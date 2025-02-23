@@ -27,6 +27,7 @@ cache.
 and you had a fun response similar to the gemini incident.
 
 3) You can see the bugs in their cache code :D Few duplicate data structures loading in there ;)
+This gets interesting when you attempt to run this after you clear the thread. Add more, and so on.
 
 
 This utility requires you interact with the AI.  
@@ -46,7 +47,7 @@ You need to modify this script for those tags, and it probably makes sense to tw
 You need to use Chrome ATOTW  & download the correct driver. You need to be smart enough to do all these things.
 ![img.png](img.png)
 
-Divers:
+Drivers:
 Chrome
 https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions-with-downloads.json
 https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.53/win64/chromedriver-win64.zip
@@ -112,3 +113,19 @@ until there is not :)
 
 Memory Settings are in places like this:
 ![img_1.png](img_1.png)
+
+Ask to see Main Memory:
+![img_3.png](img_3.png)
+![img_7.png](img_7.png)
+What happened to my preference for MEM?:
+![img_5.png](img_5.png)
+
+The AI is not always correct, so how does that influence
+this information? Suddenly we're not in Kansas anymore :)
+![img_6.png](img_6.png)
+
+2/23 
+It "choose" to auto update it's memory based on the code I had
+it help me write and the other 'discussions'.  It now
+immediately updates it's memory when I type "MEM"
+![img_8.png](img_8.png)
