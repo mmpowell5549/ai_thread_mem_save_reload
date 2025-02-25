@@ -131,3 +131,12 @@ immediately updates it's memory when I type "MEM".
 This is a new thread....there is no reference visible in 
 the Memory Management in Settings.
 ![img_8.png](img_8.png)
+
+Moving my 'Memory' between AI agents.
+We can think of the application of this process analogous to the begining
+of the birth of the Neuromancer tech; the same idea stolen in the fav movie "old school" (ha ha)
+software engineers:
+"Tank, I need a pilot program for B-212 helicopter. Hurry. Trinity has Tank teach her how to fly."
+https://www.youtube.com/watch?v=SoAk7zBTrvo
+
+![img_10.png](img_10.png)
