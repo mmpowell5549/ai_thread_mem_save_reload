@@ -3,8 +3,8 @@
 Time Travel for the Average AI Joe.
 
 An AI Utility for fun.
-Don't use my code to do bad sh*t.  
-Oh the things we can all think of.
+Don't use my code to do bad things please. 
+And oh the things we can all think of.
 It's always the KISS principal, is it not?
 <div style="border: 1px solid red; padding: 10px;">
 NUMBER ONE THING HERE:
@@ -29,6 +29,10 @@ and you had a fun response similar to the gemini incident.
 3) You can see the bugs in their cache code :D Few duplicate data structures loading in there ;)
 This gets interesting when you attempt to run this after you clear the thread. Add more, and so on.
 
+4) You can create your own customized AI agent you can load onto any platform given your file does not overrun memory.
+
+5) You can manually tweak your memory file in the standard vim/vi fashion (sed if ur crazy) and load it up.
+
 
 This utility requires you interact with the AI.  
 <div style="border: 1px solid red; padding: 10px;">
@@ -52,7 +56,7 @@ Chrome
 https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions-with-downloads.json
 https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.53/win64/chromedriver-win64.zip
 
-![img_2.png](img/img_2.png)
+![img/img_2.png](img/img_2.png)
 
 
 Create a Project 
@@ -111,12 +115,14 @@ This also implies the 'how' or 'when' processing of data and
 how we would rev/throttle the systems.  There is a fine balance,
 until there is not :)
 
+
 Memory Settings are in places like this:
 ![img/img_1.png](img/img_1.png)
 
 Ask to see Main Memory:
 ![img/img_3.png](img/img_3.png)
 ![img/img_7.png](img/img_7.png)
+
 What happened to my preference for MEM?:
 ![img/img_5.png](img/img_5.png)
 
@@ -142,6 +148,7 @@ https://www.youtube.com/watch?v=SoAk7zBTrvo
 ![img/img_10.png](img/img_10.png)
 
 ![img/img_13.png](img/img_13.png)
+
 It's important to note that when I explained to the Grok (3beta) thread that I created 
 grok_load1.txt from that I was going to be doing this, and shared my code, we started
 talking about dups and formatting. After that, Grok just started formatting it's output
