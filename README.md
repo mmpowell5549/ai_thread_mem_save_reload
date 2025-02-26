@@ -142,7 +142,18 @@ https://www.youtube.com/watch?v=SoAk7zBTrvo
 ![img_10.png](img_10.png)
 
 ![img_12.png](img_12.png)
+It's important to note that when I explained to the Grok (3beta) thread that I created 
+grok_load1.txt from that I was going to be doing this, and shared my code, we started
+talking about dups and formatting. After that, Grok just started formatting it's output
+the way it wanted it for load.   So this file does have a set pattern.
+It will be very interesting to see if this same behavior occurs again.  I thought perhaps I
+hit verbose mode, but my new thread is not replicating this behavior.
 
 By far a better a Turing test result IMO!!!  But again...the coding...
 software engineers are NOT going away ;)
 ![img_11.png](img_11.png)
+
+*My apologies for so many updates.  It's difficult to know how many people would know
+there is a develop and main branch and they may not be in synch.  I know about the long 
+running commits vs single repo etc etc etc.  It's just for quick n dirty trial n error
+stuff.  My focus is the AIs capabilities vs scc. :)
