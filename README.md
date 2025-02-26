@@ -134,9 +134,15 @@ the Memory Management in Settings.
 
 Moving my 'Memory' between AI agents.
 We can think of the application of this process analogous to the begining
-of the birth of the Neuromancer tech; the same idea stolen in the fav movie "old school" (ha ha)
+of the birth of the Neuromancer tech; the same idea stolen in the fav movie of "old school" (ha ha)
 software engineers:
-"Tank, I need a pilot program for B-212 helicopter. Hurry. Trinity has Tank teach her how to fly."
+"'Tank, I need a pilot program for B-212 helicopter. Hurry.' Trinity has Tank teach her how to fly."
 https://www.youtube.com/watch?v=SoAk7zBTrvo
 
 ![img_10.png](img_10.png)
+
+![img_12.png](img_12.png)
+
+By far a better a Turing test result IMO!!!  But again...the coding...
+software engineers are NOT going away ;)
+![img_11.png](img_11.png)

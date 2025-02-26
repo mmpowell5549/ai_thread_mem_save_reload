@@ -34,7 +34,9 @@ chrome_options.add_argument("--disable-blink-features=AutomationControlled")  # 
 # Set the path to your Chromedriver
 service = Service("/WebDrivers/chromedriver.exe")  # Update this path - it is needed
 driver = webdriver.Chrome(service=service, options=chrome_options)
-driver.get("https://chatgpt.com/auth/login")
+#
+driver.get("https://x.com/i/grok?conversation=<you put ur id in here>")
+# driver.get("https://chatgpt.com/auth/login")
 
 # time.sleep() halts the entire Python process, including interactions with the browser.
 # ChromeDriver continues to execute page scripts (JavaScript, animations, etc.) during this time.
@@ -42,7 +44,7 @@ driver.get("https://chatgpt.com/auth/login")
 # TODO: WebDriverWait(driver, 180).until(
 #     lambda driver: driver.execute_script("return document.readyState") == "complete"
 # )
-time.sleep(180)
+time.sleep(60)
 # Manual Step - You go out there and log in and navigate to ur page man
 # ----------------------------------------------------------------------------
 # Wait to ensure page loads (optional, prevents timing issues - if you don't get
@@ -51,10 +53,7 @@ time.sleep(180)
 driver.implicitly_wait(5)
 
 # Find all messages (modify class name based on actual chat structure)
-messages = driver.find_elements(By.XPATH, "//*[contains(text(), 'Hal ')]")
-
-# Filter messages that contain "Hal"
-hal_messages = [msg.get_attribute("innerText") for msg in messages if "Hal" in msg.text]
+hal_messages = [elem.get_attribute("textContent") for elem in driver.find_elements(By.XPATH, "//*[contains(text(), 'MEM')]") if "MEM" in elem.get_attribute("textContent")]
 
 # Save filtered messages to a file
 with open("scan_messages.txt", "w", encoding="utf-8") as f:
@@ -67,5 +66,4 @@ with open("scan_messages.txt", "w", encoding="utf-8") as f:
 
 print('Message search loop complete')
 # Close the browser
-time.sleep(500)
 driver.quit()
