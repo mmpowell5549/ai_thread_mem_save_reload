@@ -35,7 +35,7 @@ chrome_options.add_argument("--disable-blink-features=AutomationControlled")  # 
 service = Service("/WebDrivers/chromedriver.exe")  # Update this path - it is needed
 driver = webdriver.Chrome(service=service, options=chrome_options)
 #
-driver.get("https://x.com/i/grok?conversation=<you put ur id in here>")
+driver.get("https://x.com/i/grok?conversation=<put your id here>")
 # driver.get("https://chatgpt.com/auth/login")
 
 # time.sleep() halts the entire Python process, including interactions with the browser.
@@ -56,7 +56,7 @@ driver.implicitly_wait(5)
 hal_messages = [elem.get_attribute("textContent") for elem in driver.find_elements(By.XPATH, "//*[contains(text(), 'MEM')]") if "MEM" in elem.get_attribute("textContent")]
 
 # Save filtered messages to a file
-with open("scan_messages.txt", "w", encoding="utf-8") as f:
+with open("ai_memory.out", "w", encoding="utf-8") as f:
     f.write('Start Over\n')
     print('start write')
     for msg in hal_messages:
