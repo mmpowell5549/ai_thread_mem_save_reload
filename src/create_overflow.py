@@ -35,7 +35,7 @@ chrome_options.add_argument("--disable-blink-features=AutomationControlled")  # 
 service = Service("/WebDrivers/chromedriver.exe")  # Update this path - it is needed
 driver = webdriver.Chrome(service=service, options=chrome_options)
 #
-driver.get("https://x.com/i/grok?conversation=1909902767306449378")
+driver.get("https://x.com/i/grok?conversation=")
 # driver.get("https://chatgpt.com/auth/login")
 
 # time.sleep() halts the entire Python process, including interactions with the browser.
