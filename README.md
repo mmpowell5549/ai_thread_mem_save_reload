@@ -15,3 +15,5 @@ I was like 'mama might have raised a fool but daddy didn't...'
  [^1] https://www.reddit.com/r/vintagecomputing/comments/1dljc14/pocket_386_a_newold_laptop_that_can_run_dos_and/
 
  [^1] Sample_And_Hold. (2024, June 22). Pocket 386: a new-old laptop that can run DOS and Windows 3.1 [Online forum post]. Reddit. https://www.reddit.com/r/vintagecomputing/comments/1dljc14/pocket_386_a_newold_laptop_that_can_run_dos_and/
+
+My gofundme: https://gofund.me/f570f4730
