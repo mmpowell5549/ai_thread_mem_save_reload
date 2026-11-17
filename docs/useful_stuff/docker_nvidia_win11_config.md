@@ -16,7 +16,7 @@ bash
 wsl -l -v
 Use code with caution.
 • What to look for: Your distro (such as Ubuntu or docker-desktop) should list 2 under the VERSION column.
-![nvidia1.png](nvidia1.png)
+![../../img/nvidia1.png](../../img/nvidia1.png)
 
 3. Test GPU Passthrough Inside WSL2
 
