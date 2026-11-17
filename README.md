@@ -38,21 +38,21 @@ You better know how to train your dragon.  If it doesn't do what you say from th
 You need to create a 'tag' for the AI responses that you would like to 'save'.
 You need to modify this script for those tags, and it probably makes sense to tweak your time as well ;)
 
-![img_4.png](img_4.png)
+![img/img_4.png](img/img_4.png)
 
 
 
 **System Build**
 
 You need to use Chrome ATOTW  & download the correct driver. You need to be smart enough to do all these things.
-![img.png](img.png)
+![img/img.png](img/img.png)
 
 Drivers:
 Chrome
 https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions-with-downloads.json
 https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.53/win64/chromedriver-win64.zip
 
-![img_2.png](img_2.png)
+![img/img_2.png](img/img_2.png)
 
 
 Create a Project 
@@ -112,17 +112,17 @@ how we would rev/throttle the systems.  There is a fine balance,
 until there is not :)
 
 Memory Settings are in places like this:
-![img_1.png](img_1.png)
+![img/img_1.png](img/img_1.png)
 
 Ask to see Main Memory:
-![img_3.png](img_3.png)
-![img_7.png](img_7.png)
+![img/img_3.png](img/img_3.png)
+![img/img_7.png](img/img_7.png)
 What happened to my preference for MEM?:
-![img_5.png](img_5.png)
+![img/img_5.png](img/img_5.png)
 
 The AI is not always correct, so how does that influence
 this information? Suddenly we're not in Kansas anymore :)
-![img_6.png](img_6.png)
+![img/img_6.png](img/img_6.png)
 
 2/23 
 It "chose" to auto update it's memory based on the code I had
@@ -130,7 +130,7 @@ it help me write and the other 'discussions'.  It now
 immediately updates it's memory when I type "MEM".
 This is a new thread....there is no reference visible in 
 the Memory Management in Settings.
-![img_8.png](img_8.png)
+![img/img_8.png](img/img_8.png)
 
 Moving my 'Memory' between AI agents.
 We can think of the application of this process analogous to the begining
@@ -139,10 +139,10 @@ software engineers:
 "'Tank, I need a pilot program for B-212 helicopter. Hurry.' Trinity has Tank teach her how to fly."
 https://www.youtube.com/watch?v=SoAk7zBTrvo
 
-![img_10.png](img_10.png)
+![img/img_10.png](img/img_10.png)
 
-![img_12.png](img_12.png)
+![img/img_12.png](img/img_12.png)
 
 By far a better a Turing test result IMO!!!  But again...the coding...
 software engineers are NOT going away ;)
-![img_11.png](img_11.png)
+![img/img_11.png](img/img_11.png)
