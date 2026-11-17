@@ -1,3 +1,5 @@
+© ℗ ® ™
+
 markdown
 ~~This text will be crossed out.~~Here's the complete Markdown reference guide as a single copy-pasteable file. Select everything inside the code block below and paste it into a new file named markdown-cheatsheet.md.
 
