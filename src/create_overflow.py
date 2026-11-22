@@ -35,7 +35,10 @@ chrome_options.add_argument("--disable-blink-features=AutomationControlled")  # 
 service = Service("/WebDrivers/chromedriver.exe")  # Update this path - it is needed
 driver = webdriver.Chrome(service=service, options=chrome_options)
 #
-driver.get("https://x.com/i/grok?conversation=")
+driver.get("https://grok.com/")
+#driver.get("https://chatgpt.com/")
+#driver.get("https://claude.ai")
+#driver.get("https://gemini.google.com/")
 # driver.get("https://chatgpt.com/auth/login")
 
 # time.sleep() halts the entire Python process, including interactions with the browser.
@@ -44,7 +47,7 @@ driver.get("https://x.com/i/grok?conversation=")
 # TODO: WebDriverWait(driver, 180).until(
 #     lambda driver: driver.execute_script("return document.readyState") == "complete"
 # )
-time.sleep(60)
+time.sleep(80)
 # Manual Step - You go out there and log in and navigate to ur page man
 # ----------------------------------------------------------------------------
 # Wait to ensure page loads (optional, prevents timing issues - if you don't get
