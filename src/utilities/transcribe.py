@@ -5,6 +5,9 @@ from docx import Document
 import os
 import sys
 from pathlib import Path
+import shutil
+import subprocess
+from pathlib import Path
 
 from app_logger import get_mem_logger
 
@@ -20,7 +23,7 @@ class TranscribeData:
         self.model_size = model_size
         self.output_path = output_path
         self.shared_model = None
-        self.initalize_model()
+        # self.initalize_model()
 
     def initalize_model(self):
         # 2. INITIALIZE MODEL ONCE (Outside the loop)
@@ -99,6 +102,46 @@ class TranscribeData:
         except Exception as e:
             self.logger.info(f"Shit just failed {e}")
             print(f"Shit just failed {e}")
+
+
+    def convert_m4a_to_mp3(
+        m4a_path: str | Path,
+        mp3_path: str | Path | None = None,
+        bitrate: str = "192k"
+    ) -> Path:
+        """
+        Converts an .m4a audio file to .mp3 using FFmpeg in Python 3.13+.
+        """
+        if shutil.which("ffmpeg") is None:
+            raise EnvironmentError("FFmpeg is not installed or not found in your system PATH.")
+
+        input_file = Path(m4a_path).resolve()
+        if not input_file.exists():
+            raise FileNotFoundError(f"Input file not found: {input_file}")
+
+        output_file = Path(mp3_path).resolve() if mp3_path else input_file.with_suffix(".mp3")
+
+        cmd = [
+            "ffmpeg",
+            "-y",                  # Overwrite output file if it exists
+            "-i", str(input_file), # Input file
+            "-vn",                 # Strip any video/album art streams
+            "-acodec", "libmp3lame",
+            "-ab", bitrate,        # Audio bitrate (e.g., "128k", "192k", "320k")
+            "-ar", "44100",        # Standard 44.1kHz sample rate
+            str(output_file)
+        ]
+
+        result = subprocess.run(cmd, capture_output=True, text=True)
+
+        if result.returncode != 0:
+            raise RuntimeError(f"FFmpeg conversion failed:\n{result.stderr}")
+
+        return output_file
+
+# Example usage:
+#    converted = convert_m4a_to_mp3(r"C:\path\to\your\audio.m4a")
+#    print(f"Converted: {converted}")
 
 
 # Example usage:
